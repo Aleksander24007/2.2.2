@@ -3,15 +3,17 @@ package web.Model;
 import org.springframework.stereotype.Component;
 
 import java.util.Objects;
+
 @Component
 public class Car {
     private String colour;
     private String model;
     private int series;
 
-    public Car() {}
+    public Car() {
+    }
 
-    public Car(String colour,String model, int series) {
+    public Car(String colour, String model, int series) {
         this.colour = colour;
         this.model = model;
         this.series = series;
