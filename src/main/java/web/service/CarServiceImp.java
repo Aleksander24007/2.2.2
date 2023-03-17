@@ -16,4 +16,8 @@ public class CarServiceImp implements CarService {
     public List<Car> getListCar(List<Car> cars, int amount) {
         return carDao.getListCar(cars, amount);
     }
+
+    public List<Car> add() {
+        return carDao.add();
+    }
 }

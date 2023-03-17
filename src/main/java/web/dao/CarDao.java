@@ -8,4 +8,6 @@ public interface CarDao {
 
     List<Car> getListCar(List<Car> cars, int amount);
 
+    List<Car> add();
+
 }
