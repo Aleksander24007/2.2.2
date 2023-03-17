@@ -25,7 +25,7 @@ public class CarController {
         cars.add(new Car("gray", "skoda", 5423234));
         cars.add(new Car("yellow", "Honda", 55423));
         model.addAttribute("cars", carsList.getListCar(cars,count));
-        return "cars";
+        return "Car";
     }
 
 }
